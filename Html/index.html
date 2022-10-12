@@ -12,8 +12,7 @@
         <div class="navbar">
             <div class="logo"></div>
         </div>
-
-        <form action="index.html">
+        <form action="index.html" id="sgnform">
             <div class="form">
                 <label for="firstname">First name:</label>
                 <input type="text" placeholder="First Name" class="txt">
@@ -31,7 +30,21 @@
                 <input type="email" placeholder="something@something.com" class="txt">
             </div>
             <div class="form">
-                Gender: <input type="radio" name="gender">
+                Gender: <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </div>
+            <div class="form">
+                <label for="hometown">Choose yout hometown:</label>
+                <input>
+            </div>
+            <div class="form">
+                <label for="about">Additional information about yourself (optional):</label>
+                <br>
+                <textarea name="message" id="message" cols="50" rows="8"></textarea>
+            </div>
+            <div class="form">
+                <input type="submit" value="Submit">
             </div>
         </form>
     </div>
