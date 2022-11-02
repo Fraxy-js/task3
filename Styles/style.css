@@ -15,10 +15,12 @@
     height: 43px;
 }
 
-.container form{
+
+
+#sgnform{
+    text-align: left;
+    width: 500px;
     background-color: aqua;
-    align-items: center;
-    display: inline-block;
     padding: 10px;
     margin: 15px;
 }
